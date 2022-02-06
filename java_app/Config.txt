@@ -1,0 +1,22 @@
+# DEFAULT PARAMETERS, EDIT AT YOUR OWN RISK
+# Be sure to not add unintentional space after you have changed the values
+
+# Example MySQL config.
+# Below standar values of parameters for connect to mysql
+URL= jdbc:mysql://127.0.0.1:3306/MeteoTerranova?
+USER= root
+PASSWORD=
+DRIVER= com.mysql.cj.jdbc.Driver
+
+# Example Http Request config.
+# Below standar values of parameters for http GET request
+# NOTICE: You can change the token manually, anyway if the request don't go well, the program will automatically request a new token
+REQUESTURL= https://twswebtest.terranovasoftware.eu/RetiVenditaCollaudo/api/meteo/infocitytemp?
+TOKEN= C88EAF9DFDF7E13E3FF8283F354BB26DF4F2B5EA2B2563344470EE7F3C69BF0705F274821A26B861AA82FDBB873B6868BA2E6DC9AC7C4B4649134CD28D2644212E7A42C8233A8EEF938064A554A17DAAC681CD85ED7C0AAFD2C3E4BF74238D81690DAD84D7B67CEDABC7E356FA5708B2B757A28CEE5F2323031B12DBC3D0CB34E4D17FD94A3B90A40CAD2F304D7EF65C5BE3F3E3937085331BC466156EB772B9
+STARTDATE= 01-01-1970
+ENDDATE= 31-12-2100
+
+# Below standar values of parameters for http PUT request
+# Change the values only if the credetentials to access have been changed
+USERNAME= Evangelista
+PASS= Torricelli
